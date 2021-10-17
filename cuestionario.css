@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	line-height: 1.5;
+}
+body{
+	margin: 0;
+	background: #DFEEEF;
+	color: #fff;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+ 
+}
+#container{
+	width: 60%;
+	background: gray;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+}
+header{
+	text-align: center;
+	border-bottom: #fff dashed 1px;
+	padding: 0 15px;
+
+}
+input[type="submit"]{
+ background: #f06226;
+ border: 0;
+ color: #fff;
+ padding: 10px 15px;
+ cursor:pointer;
+}
+input[type="submit"]:hover{
+	background:#EEAD33  ;
+	color: white;
+}
+
+#resultado h3{
+	background: blue;
+	padding: 10px;
+	margin: 10px 0;
+}
+.imagen{
+	background: url(ginobi.jpg);
+	background-size: cover ;
+	max-width: 100%;
+}
+
