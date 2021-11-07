@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Formulario</title>
 	<link rel="stylesheet" type="text/css" href="cuestionario.css">
 </head>
 	<body>
+
 	 <div class="imagen">
 	 <div id="container" >
-
+        
 		<header class="main-header">
 		<h1>Responde las siguientes preguntas</h1>
 		</header>
@@ -17,46 +18,74 @@
                <div id="resultado"></div>
 		<form id="cuestionario" name="form" method="post">
 			
+            <h2>Decinos tu nombre para darte una bienvenida :  </h2>
+            <input type="text" name="nombre" placeholder="Ingresar nombre :">
+
+            <div id="nombre"></div>
+
 			<h4>Que camiseta usaba Ginobilli en los Spurs?</h4>
 			<input type="radio" name="p1" value="a">a. 25 <br/>
 			<input type="radio" name="p1" value="b">b. 20 <br/>
 			<input type="radio" name="p1" value="c">c. 5 <br/>
+			 <div id="caja1"></div>
 			
 
 			<h4>Que camiseta usaba Ginobilli con Argentina?</h4>
 			<input type="radio" name="p2" value="a">a. 15 <br/>
 			<input type="radio" name="p2" value="b">b. 20 <br/>
 			<input type="radio" name="p2" value="c">c. 5 <br/>
-			<div class="res"></div>
+			<div id="caja2"></div>
 
 			<h4>En atenas 2004, que medalla ganó Argentina?</h4>
 			<input type="radio" name="p3" value="a">a. Oro <br/>
 			<input type="radio" name="p3" value="b">b. Bronce <br/>
 			<input type="radio" name="p3" value="c">c. Plata <br/>
-			
+			<div id="caja3"></div>
 
 			<h4>Y en 2008, que medalla ganó Argentina?</h4>
 			<input type="radio" name="p4" value="a">a. Oro <br/>
 			<input type="radio" name="p4" value="b">b. Bronce <br/>
 			<input type="radio" name="p4" value="c">c. Plata <br/>
 			<input type="radio" name="p4" value="d">d. Ninguna <br/>
-			
+			<div id="caja4"></div>
 
 			<h4>Y en 2012, que medalla ganó Argentina?</h4>
 			<input type="radio" name="p5" value="a">a. Oro <br/>
 			<input type="radio" name="p5" value="b">b. Bronce <br/>
 			<input type="radio" name="p5" value="c">c. Plata <br/>
 			<input type="radio" name="p5" value="d">d. Ninguna <br/>
+             <div id="caja5"></div>
+
+             
 			
 	           
 			<br/>
 			<input type="submit" value="Enviar">
-
-	  </form> 
+                <script src="script.js"></script>
+	  </form>
 	 </section>	
 
 	 </div>
 	</div>  
-	<script src="script.js"></script>
+	
+
+	    <strong> ¿Sobre que te gustaría que fuera el próximo formulario?</strong>
+
+	    <form action="" class="formulario">
+	    	<h2 class="formu__contactenos">Contáctenos</h2>
+	    	<input type="text" name="" class="formu__input">
+	    	<label  class="formu__label">Telefono</label>
+	    	<input type="text" class="formu__input">
+	    	<label  class="formu__label">Mensaje</label>
+	    	<input type="text" name="" class="formu__input">
+	    	<label  class="formu__label">Correo</label>
+	    	
+	    	<input type="submit" class="formu__submit">
+
+          <script src="formu.js"></script>
+
+	    </form>
+	    <br/>
+	    
 	</body>
 </html>
